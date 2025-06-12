@@ -1,0 +1,15 @@
+.overallLayout {
+  background-color: #777799; /*Code stolen from <https://developer.mozilla.org/en-US/docs/Web/CSS/background-color>*/
+  color: #FFFFFF;
+}
+
+.btnStyCSS {
+  background-color: #4CAF50; /* Makes green buttons. Code from <https://www.w3schools.com/css/css3_buttons.asp> */
+  border: 2px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

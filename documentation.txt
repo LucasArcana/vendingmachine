@@ -1,0 +1,6 @@
+btn.addEventListener("click", function(){
+	var coin = window.prompt("Insert any coin. (20c, 50c, $1, $2)");
+	$money += coinValue[coin] || 0; //[coin] calls one of the properties of coinValue's objects.
+	if (typeof coinValue[coin] === 'undefined') alert('Invalid Choice');
+	console.log('You now have ' + formatMoney($money));
+})  //Taken from https://stackoverflow.com/questions/67929579/how-do-you-program-this-javascript-file-for-allowing-more-than-one-denominations
